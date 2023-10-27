@@ -1,0 +1,13 @@
+console.log("조금있으면 집을 갈 수있어");
+console.log("하루만 더 가면 된다");
+console.log("오늘 날씨가 안좋아");
+console.log("오늘은 날씨가 좋네?");
+console.log("주말은 비온다던데");
+console.log("주말은 비온다던데");
+console.log("주말은 비온다던데");
+console.log("주말은 비온다던데");
+console.log("주말은 비온다던데");
+console.log("주말은 비온다던데");
+console.log("주말은 비온다던데");
+console.log("주말은 비온다던데");
+console.log("주말은 비온다던데");
