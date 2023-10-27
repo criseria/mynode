@@ -16,7 +16,7 @@ const dotenv = require('dotenv').config();
 
 //몽고DB 접속코드
 var mongodbclient = require('mongodb').MongoClient;
-const url = process.env.DB_URL;
+const url = "mongodb+srv://admin:870619@cluster0.nbde0oy.mongodb.net/?retryWrites=true&w=majority";
 const ObjId = require('mongodb').ObjectId;
 
 let mydb;
@@ -25,7 +25,7 @@ mongodbclient.connect(url)
     .then(client => {
         mydb = client.db('myboard');
 
-        app.listen(process.env.PORT, function () {
+        app.listen(8080, function () {
             console.log("포트 8080 서버 대기중 ..");
         })
     })
